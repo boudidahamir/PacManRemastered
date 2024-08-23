@@ -37,7 +37,7 @@ public class PlayerControl : MonoBehaviour
         radius = 1.6f;
         Time.timeScale = 1f;
         h.x = 5f; ; v.z = 0f; 
-        transform.position = new Vector3(5.68f, 0f, -9.06f);
+        transform.position = new Vector3(5.6f, 1.39f, -8.91f);
         transform.rotation = Quaternion.Euler(0, 90, 0);
         rb = GetComponent<Rigidbody>();  
         col = GetComponent<Collider>();
@@ -251,7 +251,7 @@ public class PlayerControl : MonoBehaviour
 
         if (collision.gameObject.name.Equals("Green(Clone)"))
         {
-            if (!collision.gameObject.GetComponent<Greencontroller>().death)
+            if (!collision.gameObject.GetComponent<GreenController>().death)
             {
                 if (poweractive == false)
                 {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class Coincontroller : MonoBehaviour
+public class CoinController : MonoBehaviour
 {
     private Collider rb;
 

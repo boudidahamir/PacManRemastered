@@ -6,7 +6,7 @@ using UnityEngine.AI;
 using static UnityEngine.GraphicsBuffer;
 using Random = UnityEngine.Random;
 
-public class Greencontroller : MonoBehaviour
+public class GreenController : MonoBehaviour
 {
     private Rigidbody rb;
     private Transform tr;

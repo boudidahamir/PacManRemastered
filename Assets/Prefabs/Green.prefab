@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8325184068094402811}
   - component: {fileID: 3246161372842218165}
   - component: {fileID: -1927894592455334492}
-  - component: {fileID: 3363034980016262386}
+  - component: {fileID: -7890038461096777400}
   m_Layer: 10
   m_Name: Green
   m_TagString: Untagged
@@ -28,13 +28,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8325184068087141179}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 9.69, y: 0, z: 8.26}
   m_LocalScale: {x: 4.041362, y: 4.041362, z: 4.041362}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &8325184068098711099
 SkinnedMeshRenderer:
@@ -118,18 +118,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8325184068087141179}
   m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.8202005, y: 1.072655, z: 0.87270916}
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 2}
   m_Center: {x: 0.00849709, y: 0.5903305, z: -0.0716406}
 --- !u!195 &-1927894592455334492
 NavMeshAgent:
@@ -153,7 +145,7 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &3363034980016262386
+--- !u!114 &-7890038461096777400
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,3 +161,4 @@ MonoBehaviour:
   fearmat: {fileID: 2100000, guid: 9c0d4c331ea15494d8741cb7b42f138d, type: 2}
   deathmat: {fileID: 2100000, guid: 160fb633c839bb6489d3dedfe56e6c17, type: 2}
   death: 0
+  positions: []
